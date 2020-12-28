@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 const webpack = require("webpack");
 const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
@@ -8,23 +7,18 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const WebpackPwaManifest = require("webpack-pwa-manifest");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const path = require("path");
-const fs = require("fs");
-const https = require("https");
 
-if (!process.env.APP_CONTEXT) {
-  require("dotenv").config({
-    path: path.resolve(process.cwd(), ".env.production.local"),
-  });
-}
-
-const environmentVariables =
-  typeof process.env.APP_CONTEXT === "string"
-    ? JSON.parse(
-        process.env.APP_CONTEXT[9] == '"'
-          ? process.env.APP_CONTEXT
-          : JSON.stringify(process.env.APP_CONTEXT)
-      )
-    : process.env.APP_CONTEXT;
+const environmentVariables = {
+  desc: {
+    fullName: "Galvanize Bootcamp",
+    shortName: "Bootcamp",
+    description: "T-Mobile Galvanize Bootcamp",
+  },
+  theme: {
+    primary: { main: "#460032", contrastText: "#fff" },
+    secondary: { main: "#003246", contrastText: "#fff" },
+  },
+};
 
 const {
   desc: { fullName, shortName, description },
@@ -83,8 +77,9 @@ module.exports = () => {
         chunkFilename: "./styles/[name]-[hash].css",
       }),
       new webpack.DefinePlugin({
-        "process.env.JSON_APP_CONTEXT": JSON.stringify(environmentVariables),
-        "process.env.NODE_ENV": process.env.NODE_ENV || "production",
+        "process.env": {
+          NODE_ENV: JSON.stringify("production"),
+        },
       }),
     ];
 

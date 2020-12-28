@@ -8,7 +8,7 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const path = require("path");
 
-require("dotenv").config({ path: path.resolve(process.cwd(), ".env.local") });
+require("dotenv").config({ path: path.resolve(process.cwd(), ".env") });
 
 const environmentVariables =
   typeof process.env.APP_CONTEXT === "string"
