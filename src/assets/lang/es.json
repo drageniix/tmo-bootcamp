@@ -1,0 +1,20 @@
+{
+  "language": "No Habla Espanol",
+  "accessibility": {
+    "imageAlt": "No Habla Espanol"
+  },
+  "cart": {
+    "checkout": "No Habla Espanol",
+    "cartTitle": "No Habla Espanol",
+    "subtotal": "No Habla Espanol",
+    "instructions": "No Habla Espanol",
+    "emptyCart": "No Habla Espanol"
+  },
+  "expandedItem": {
+    "chooseMinMaxText": "No Habla Espanol",
+    "add": "No Habla Espanol",
+    "update": "No Habla Espanol",
+    "additionalInstructionsPlaceholder": "No Habla Espanol",
+    "defaultIngredientGroup": "No Habla Espanol"
+  }
+}

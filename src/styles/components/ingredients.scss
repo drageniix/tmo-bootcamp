@@ -1,0 +1,25 @@
+.ingredientList {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  &__item {
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+
+    &--title {
+      font-size: 1.25em;
+      text-transform: capitalize;
+    }
+
+    &--img {
+      height: 7.25rem;
+      object-fit: contain;
+    }
+  }
+}

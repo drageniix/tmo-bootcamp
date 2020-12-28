@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test form functionality should match form snapshot 1`] = `
+<section
+  class="ingredientSearch"
+  data-testid="form"
+>
+  <label
+    class="ingredientSearch__label"
+    for="downshift-0-input"
+    id="downshift-1-label"
+  >
+    Choose an ingredient:
+  </label>
+  <div
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-owns="downshift-1-menu"
+    class="ingredientSearch__actions"
+    role="combobox"
+  >
+    <input
+      aria-autocomplete="list"
+      aria-controls="downshift-1-menu"
+      aria-labelledby="downshift-1-label"
+      autocomplete="off"
+      class="ingredientSearch__actions--input"
+      id="downshift-0-input"
+      value=""
+    />
+    <button
+      aria-label="add ingredient"
+      class="ingredientSearch__actions--button"
+      type="button"
+    >
+      +
+    </button>
+  </div>
+  <ul
+    aria-labelledby="downshift-1-label"
+    class="ingredientSearch__list"
+    id="downshift-1-menu"
+    role="listbox"
+  />
+</section>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test ingredient list should match list snapshot 1`] = `
+<section
+  data-testid="ingredients"
+>
+  <ul
+    class="ingredientList"
+  >
+    <li
+      class="ingredientList__item"
+    >
+      <button>
+        -
+      </button>
+      <img
+        class="ingredientList__item--img"
+        src="https://spoonacular.com/cdn/ingredients_100x100/banana-chips.jpg"
+      />
+      <h1
+        class="ingredientList__item--title"
+      >
+        banana chips
+      </h1>
+    </li>
+    <li
+      class="ingredientList__item"
+    >
+      <button>
+        -
+      </button>
+      <img
+        class="ingredientList__item--img"
+        src="https://spoonacular.com/cdn/ingredients_100x100/limoncello.jpg"
+      />
+      <h1
+        class="ingredientList__item--title"
+      >
+        banana liqueur
+      </h1>
+    </li>
+  </ul>
+</section>
+`;

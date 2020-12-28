@@ -1,0 +1,32 @@
+.recipeList {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.115);
+  border-radius: 1rem;
+  margin: 3rem;
+  min-height: 30rem;
+
+  &__item {
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    width: 30rem;
+    margin: 2rem;
+
+    &--title {
+      text-align: center;
+      font-size: 1.2em;
+      text-transform: capitalize;
+    }
+
+    &--img {
+      height: 20rem;
+      object-fit: contain;
+    }
+  }
+}

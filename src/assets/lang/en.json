@@ -1,0 +1,60 @@
+{
+  "language": "en",
+  "accessibility": {
+    "imageAlt": "Image"
+  },
+  "cart": {
+    "checkout": "Checkout",
+    "cartTitle": "Cart",
+    "subtotal": "Subtotal",
+    "instructions": "Instructions",
+    "emptyCart": "Add something delicious to get started."
+  },
+  "expandedItem": {
+    "chooseMinMaxText": "Choose",
+    "add": "Add",
+    "update": "Update",
+    "additionalInstructionsPlaceholder": "Additional Instructions?",
+    "defaultIngredientGroup": "Pick your Options",
+    "validation": {
+      "1": "Too many",
+      "2": "Too few"
+    }
+  },
+  "user": {
+    "userTitle": "Guest Checkout",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "passwd": "Password"
+  },
+  "client": {
+    "clientTitle": "Location",
+    "minutes": "minutes",
+    "eta": "Pickup ETA"
+  },
+  "checkout": {
+    "submitOrder": "Submit Order",
+    "checkoutTitle": "Checkout",
+    "additionalInstructionsPlaceholder": "Additional Instructions?"
+  },
+  "orderSummary": {
+    "orderSummaryTitle": "Order Details",
+    "backToMenu": "⬅ Menu",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "fee": "Convenience Fee",
+    "discount": "Discount",
+    "total": "Total",
+    "emptyCart": "Your cart is empty!",
+    "thankYou": "Thank you for your order!",
+    "emailConfirm": "You will recieve a confirmation email at:"
+  },
+  "rewards": {
+    "rewardsTitle": "Rewards",
+    "noDiscount": "No Discount",
+    "youWillEarn": "You will earn %%% more points from this order.",
+    "points": "Points"
+  }
+}

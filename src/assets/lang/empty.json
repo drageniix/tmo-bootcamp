@@ -1,0 +1,60 @@
+{
+  "language": "en",
+  "accessibility": {
+    "imageAlt": ""
+  },
+  "cart": {
+    "checkout": "",
+    "cartTitle": "",
+    "subtotal": "",
+    "instructions": "",
+    "emptyCart": ""
+  },
+  "expandedItem": {
+    "chooseMinMaxText": "",
+    "add": "",
+    "update": "",
+    "additionalInstructionsPlaceholder": "",
+    "defaultIngredientGroup": "",
+    "validation": {
+      "1": "",
+      "2": ""
+    }
+  },
+  "user": {
+    "userTitle": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "phone": "",
+    "passwd": ""
+  },
+  "client": {
+    "clientTitle": "",
+    "minutes": "",
+    "eta": ""
+  },
+  "checkout": {
+    "submitOrder": "",
+    "checkoutTitle": "",
+    "additionalInstructionsPlaceholder": ""
+  },
+  "orderSummary": {
+    "orderSummaryTitle": "",
+    "backToMenu": "",
+    "subtotal": "",
+    "tax": "",
+    "fee": "",
+    "discount": "",
+    "total": "",
+    "emptyCart": "",
+    "thankYou": "",
+    "emailConfirm": ""
+  },
+  "rewards": {
+    "rewardsTitle": "",
+    "noDiscount": "",
+    "youWillEarn": "",
+    "points": ""
+  }
+}
